@@ -1,13 +1,11 @@
 package ru.vsu.cs.raspopov;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@Configuration
+@SpringBootApplication
 public class HotelSupportSystemApplication {
     public static void main(String[] args) {
-        ApplicationContext context = new AnnotationConfigApplicationContext(HotelSupportSystemApplication.class);
+        SpringApplication.run(HotelSupportSystemApplication.class, args);
     }
 }
