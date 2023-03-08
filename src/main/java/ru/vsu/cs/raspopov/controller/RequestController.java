@@ -5,9 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.vsu.cs.raspopov.dto.RequestDto;
-import ru.vsu.cs.raspopov.entity.Request;
 import ru.vsu.cs.raspopov.service.RequestService;
-import ru.vsu.cs.raspopov.service.RoomService;
 
 @RestController
 @RequestMapping("/api/")
